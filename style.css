@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    color: #999;
+}
+.offer{
+    text-align: center;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    max-width: 900px;
+}
+.container .description{
+    display: flex;
+    justify-content: space-between;
+}
+.description .box{
+    margin-top: 20px;
+    width: 30%;
+    border: 1px solid #8AE0FF;
+    border-radius: 5px;
+}
+.box img{
+    width: 20%;
+    padding: 35px 0 35px 0;
+}
+.description .box h3{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 0 6% 15px 6%;
+}
+.description .box p{
+    padding: 0 6% 50px 6%;
+    line-height: 1.3;
+}
+.container .recomendations h2{
+    margin-top: 100px;
+    font-weight: 300;
+}
+.photo img{
+    margin-top: 30px;
+    width: 8%;
+    border: 3px solid rgb(185, 185, 185);
+    border-radius: 50%;
+}
+.photo .caption{
+    font-size: 13px;
+    margin-top: 5px;
+}
+.recomendations p{
+    width: 60%;
+    font-size: 25px;
+    line-height: 1.5;
+    margin: auto;
+    margin-top: 20px;
+}
+.nav-dots {
+	width: 100%;
+	bottom: 9px;
+	height: 11px;
+	display: block;
+	position: absolute;
+	text-align: center;
+}
+
+.nav-dots .nav-dot {
+	width: 9px;
+	height: 9px;
+	margin: 0 4px 30px 0;
+	position: relative;
+	border-radius: 50%;
+	display: inline-block;
+	background-color: #8AE0FF;
+}
+
+.nav-dots .nav-dot:hover {
+	cursor: pointer;
+	background-color: rgb(105, 170, 194);
+}
